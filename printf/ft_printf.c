@@ -82,8 +82,3 @@ int ft_printf(const char *s, ... )
 	return (counter);
 }
 
-int	main(void)
-{
-	ft_printf("nbr: %d, hex: %x, str: %s", 45, 10, "string!");
-	return (0);
-}
